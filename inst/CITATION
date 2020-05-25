@@ -1,0 +1,15 @@
+citHeader("To cite distributionsrd in publications use:")
+
+citEntry(
+  entry    = "phdthesis",
+  author       = person(given="Ruben", family="Dewitte"),
+   pages        = "{IX, 208}",
+  publisher    = "{Ghent University. Faculty of Economics and Business Administration}",
+  school       = "{Ghent University}",
+  title        = "{Firm Heterogeneity in International Trade}",
+  year         = "{2020}",
+  url      = "https://hdl.handle.net/1854/LU-8644700",
+  keywords     = "{international trade,firm heterogeneity,distribution,firm size,factor bias,productivity,gains from trade,trade elasticity,heavy-tailed distribution}",
+  language     = "{eng}",
+  textVersion = paste("Dewitte, Ruben. 2020. Firm Heterogeneity in International Trade. Ghent, Belgium: Ghent University. Faculty of Economics and Business Administration.")
+)

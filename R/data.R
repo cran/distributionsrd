@@ -1,0 +1,16 @@
+#' Fitted distributions to the US Census 2000 city size distribution.
+#'
+#' A dataset containing 52 distribution fits to the US Census 2000 city size distributions
+#'
+#' @format A data frame with 52 rows and 7 variables:
+#' \describe{
+#'   \item{dist}{distribution}
+#'   \item{components}{number of components}
+#'   \item{prior}{list of prior weights for the individual distribution components of FMM}
+#'   \item{coefficients}{list of coefficients for the distributions}
+#'   \item{np}{Number of paramters}
+#'   \item{n}{Number of observations}
+#'   \item{convergence}{Logical indicating whether the fitting procedure converged}
+#' }
+#' @source \url{http://doi.org/10.3886/E113328V1}
+"fit_US_cities"
